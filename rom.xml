@@ -6,10 +6,5 @@
   <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.1" remote="rn3-los15"/>
   <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo-mr0-mr1-caf" remote="rn3-los15"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="oreo-mr1" remote="rn3-los15"/>
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio-caf" revision="oreo-mr1-8952" remote="rn3-los15"/>
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media-caf" revision="oreo-mr1-8952" remote="rn3-los15"/>
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display-caf" revision="oreo-mr1-8952" remote="rn3-los15"/>
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.1" remote="rn3-los15"/>
-  <project path="external/bson" name="android_external_bson" revision="lineage-15.1" remote="rn3-los15"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.1" remote="rn3-los15"/>
+
 </manifest>
