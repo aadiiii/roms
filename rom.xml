@@ -7,6 +7,7 @@
   <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="aadiiii"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-15.1" remote="aadiiii"/>
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.1" remote="aadiiii"/>
-
+  <project path="external/bson" name="android_external_bson" revision="lineage-15.1" remote="rn3-los15"/>
+  <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.1" remote="rn3-los15"/>
 
 </manifest>
