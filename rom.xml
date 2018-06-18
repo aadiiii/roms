@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aadiiii" fetch="https://github.com/aadiiii"/>
-  <remote name="alexstsv" fetch="https://github.com/alexstsv"/>
 
   <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" revision="oreo" remote="aadiiii"/>
   <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" revision="oreo" remote="aadiiii"/>
