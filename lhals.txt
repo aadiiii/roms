@@ -1,0 +1,14 @@
+lineage hals...
+
+
+rm -rf hardware/qcom/audio-caf/msm8952
+rm -rf hardware/qcom/media-caf/msm8952
+rm -rf hardware/qcom/display-caf/msm8952
+
+
+
+git clone https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineage-15.1-caf-8952   hardware/qcom/audio-caf/msm8952
+
+git clone https://github.com/LineageOS/android_hardware_qcom_media.git -b lineage-15.1-caf-8952   hardware/qcom/media-caf/msm8952
+
+git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b lineage-15.1-caf-8952   hardware/qcom/display-caf/msm8952
