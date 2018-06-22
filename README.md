@@ -15,6 +15,7 @@ nano build/core/binary.mk
 
 lunch lineage_kenzo-eng | lunch lineage_kenzo-userdebug
 
-make -j4 clean
+
+make -j4 clean && make -j4 clobber
 
 make bacon -j4
