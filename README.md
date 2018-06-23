@@ -19,3 +19,13 @@ lunch lineage_kenzo-eng | lunch lineage_kenzo-userdebug
 make -j4 clean && make -j4 clobber
 
 make bacon -j4
+
+
+
+
+
+#errors?
+rm -rf device/xiaomi/msm8956-common
+rm -rf device/xiaomi/msm8956-common/thermal
+rm -rf device/xiaomi/msm8956-common/vr
+
