@@ -25,7 +25,7 @@ make bacon -j4
 
 
 #errors?
-rm -rf device/xiaomi/msm8956-common
+rm -rf device/xiaomi/msm8956-common/light
 rm -rf device/xiaomi/msm8956-common/thermal
 rm -rf device/xiaomi/msm8956-common/vr
 
