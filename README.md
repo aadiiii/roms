@@ -2,6 +2,8 @@
 git config --global user.email "mail@domain.com"
 git config --global user.name "login"
 
+mkdir los
+cd los
 repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 
 mkdir -p .repo/local_manifests
