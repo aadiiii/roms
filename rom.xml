@@ -11,6 +11,6 @@
   <project path="kernel/xiaomi/msm8956" name="Escrima_kernel_xiaomi_msm8956" remote="aadiiii" revision="oreo" />
    
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.1" remote="aadiiii"/>
- 
+ </manifest>
 
-</manifest>
+
