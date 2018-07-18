@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/aadiiii/roms/master/rom.xml -O .repo/loca
 
 repo sync
 
-nano build/core/binary.mk
+
 
 . build/envsetup.sh
 
@@ -35,6 +35,6 @@ lunch lineage_kenzo-eng
 
 
 #errors
-
+nano build/core/binary.mk
 
 
