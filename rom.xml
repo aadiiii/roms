@@ -6,7 +6,6 @@
   <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" remote="aadiiii" revision="oreo" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="aadiiii" revision="oreo" />
   <project path="kernel/xiaomi/msm8956" name="Escrima_kernel_xiaomi_msm8956" remote="aadiiii" revision="oreo" />
-  <project path="vendor/xiaomi/dolby" name="Dolby_Atoms" remote="aadiiii" revision="master" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.1" remote="aadiiii"/>
   
   <project path="build/make" name="aadiiii/android_build" groups="pdk" >
