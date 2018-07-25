@@ -1,3 +1,17 @@
+sudo apt update && sudo apt full-upgrade -y && sudo apt install -y android-sdk-platform-tools bc build-essential ccache curl g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop m4 openjdk-8-jdk pngcrush repo rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+
+
+
+
+
+
+
+
+
+
+
+
+
 cd ~
 wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
 mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
