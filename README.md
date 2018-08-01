@@ -2,9 +2,9 @@
 git config --global user.email "mail@domain.com"
 git config --global user.name "login"
 
-mkdir android
-cd android
-mkdir lineage
+mkdir android &&
+cd android &&
+mkdir lineage &&
 cd lineage
 
 
