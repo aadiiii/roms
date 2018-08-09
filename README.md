@@ -31,6 +31,7 @@ lunch lineage_kenzo-userdebug
 make -j4 clean && make -j4 clobber
 
 make bacon
+sudo shutdown && logout
 
 
 lunch lineage_kenzo-eng
