@@ -8,7 +8,7 @@ mkdir lineage &&
 cd lineage
 
 
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 
 mkdir -p .repo/local_manifests
 
