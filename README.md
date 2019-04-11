@@ -13,7 +13,7 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 mkdir -p .repo/local_manifests
 
 
-wget https://raw.githubusercontent.com/aadiiii/roms/master/rom.xml -O .repo/local_manifests/rom.xml
+wget https://raw.githubusercontent.com/aadiiii/roms/master/rom.xml -O .repo/manifests/rom.xml
 
 repo sync
 
