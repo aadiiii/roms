@@ -13,12 +13,12 @@ git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-15
 
 #Trees,vendor,kernel,common-tree
 
-git clone https://github.com/AmolAmrit/device_xiaomi_kenzo -b oreo device/xiaomi/kenzo
+git clone https://github.com/aadiiii/device_xiaomi_kenzo -b pie device/xiaomi/kenzo
 
-git clone https://github.com/AmolAmrit/device_xiaomi_msm8956-common -b oreo device/xiaomi/msm8956-common
+git clone https://github.com/aadiiii/device_xiaomi_msm8956-common -b pie device/xiaomi/msm8956-common
 
-git clone https://github.com/AmolAmrit/Escrima_kernel_xiaomi_msm8956 -b oreo kernel/xiaomi/msm8956
+git clone https://github.com/AmolAmrit/Escrima_kernel_xiaomi_msm8956 -b pie kernel/xiaomi/msm8956
 
-git clone https://github.com/AmolAmrit/proprietary_vendor_xiaomi -b oreo vendor/xiaomi
+git clone https://github.com/AmolAmrit/proprietary_vendor_xiaomi -b pie vendor/xiaomi
 
 git clone https://gitlab.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2.git prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
