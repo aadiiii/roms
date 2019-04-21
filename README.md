@@ -1,6 +1,6 @@
 # roms
-git config --global user.email "mail@domain.com"
-git config --global user.name "login"
+git config --global user.email 
+git config --global user.name 
 
 mkdir android &&
 
