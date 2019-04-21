@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aadiiii" fetch="https://github.com/aadiiii"/>
-  <remote name="amol" fetch="https://github.com/AmolAmrit'/>
+  <remote name="amol" fetch="https://github.com/AmolAmrit"/>
 
   <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" remote="aadiiii" revision="pie" />
   <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" remote="aadiiii" revision="pie" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="amol" revision="pie" />
   <project path="kernel/xiaomi/msm8956" name="Escrima_kernel_xiaomi_msm8956" remote="amol" revision="pie" />
   
-  <project path="build/make" name="aadiiii/android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   
 </manifest>
 
