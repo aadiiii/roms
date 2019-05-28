@@ -3,13 +3,13 @@ rm -rf hardware/qcom/audio-caf/msm8952
 rm -rf hardware/qcom/display-caf/msm8952
 rm -rf hardware/qcom/media-caf/msm8952
 
-git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-15.1-caf-8952 hardware/qcom/audio-caf/msm8952
+git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-16.0-caf-8952 hardware/qcom/audio-caf/msm8952
 
-git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-15.1-caf-8952 hardware/qcom/display-caf/msm8952
+git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-16.0-caf-8952 hardware/qcom/display-caf/msm8952
 
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-15.1-caf-8952 hardware/qcom/media-caf/msm8952
+git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-16.0-caf-8952 hardware/qcom/media-caf/msm8952
 
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-15.1-caf-8952 hardware/qcom/media/msm8952
+git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-16.0-caf-8952 hardware/qcom/media/msm8952
 
 #Trees,vendor,kernel,common-tree
 
