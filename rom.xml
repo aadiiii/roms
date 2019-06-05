@@ -8,6 +8,9 @@
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="amol" revision="pie" />
   <project path="kernel/xiaomi/msm8956" name="Escrima_kernel_xiaomi_msm8956" remote="amol" revision="pie" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="AmolAmrit/android_hardware_qcom_audio" remote="github" revision="pie" />
+  <project path="hardware/qcom/display-caf/msm8952" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="pie" />
+  <project path="hardware/qcom/media-caf/msm8952" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="pie" />
 
   
 </manifest>
