@@ -10,7 +10,7 @@ mkdir rr &&
 
 cd rr
 
-repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie && repo sync -j16
+repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie
 
 mkdir -p .repo/local_manifests
 
