@@ -3,7 +3,7 @@
   <remote name="aadiiii" fetch="https://github.com/aadiiii"/>
   <remote name="amol" fetch="https://github.com/AmolAmrit"/>
 
-  <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" remote="aadiiii" revision="pie" />
+  <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" remote="amol" revision="pie" />
   <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" remote="amol" revision="pie" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="amol" revision="pie" />
   <project path="kernel/xiaomi/msm8956" name="Escrima_kernel_xiaomi_msm8956" remote="amol" revision="pie" />
