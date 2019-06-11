@@ -10,7 +10,7 @@ mkdir rr &&
 
 cd rr
 
-repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie
+repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 9.x
 
 mkdir -p .repo/local_manifests
 
@@ -18,13 +18,15 @@ wget https://raw.githubusercontent.com/aadiiii/roms/master/rom.xml -O .repo/loca
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
+ccache -M 100G
+
 . build/envsetup.sh
 
 lunch rr_kenzo-userdebug
 
 make -j4 clean && make -j4 clobber
 
-make bacon 
+make bacon -j4 
 
 
 rm -rf device/xiaomi/msm8956-common/light
